@@ -1,0 +1,395 @@
+.hero{
+    background: linear-gradient(rgba(0,0,0,.1),#3b81d1);
+    background-size: cover;
+  
+ 
+
+    
+}
+.head .bgslider {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    object-fit: contain;
+    overflow-x: hidden;
+    position: absolute;
+    z-index: -10;
+}
+.bgslider img{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    z-index: -1;
+   
+    
+}
+.text1 {
+    font-family: 'Sail', cursive;
+    font-weight:bolder;
+    font-weight: 600;
+    font-size: 80px;
+    position: absolute;
+    top: 390px;
+    /* right: 450px; */
+    color: white;
+    text-align: center;
+     width: 100%;
+}
+.text1 h1{
+ font-family: 'Sail', cursive;
+ font-weight:bolder;
+ font-weight: 600;
+ font-size: 80px;
+
+ text-align: center;
+}
+.text1 h3{
+    align-items: center;
+  }
+.contactpre{
+    padding: 60px 120px;
+    line-height: 30px;
+}
+.contactdetails{
+    background-color:rgb(47, 47, 88); 
+    padding: 60px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.contactdetails h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-bottom: 30px;
+
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.meet{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 30px;
+    padding: 9px;
+}
+.contact h3{
+    text-align: center;
+}
+.contact h3{
+    font-size: 20px;
+}
+.icon{
+    background-color: #3b81d1;
+    font-size: 30px;
+    padding: 10px;
+    width:80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: white;
+    border-radius: 50%;
+    margin-top: -30px;
+    
+}
+.facebook{
+    display: flex;
+   padding: 30px;
+}
+.follow h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.follow1{
+    background-color: #3b81d1;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    
+}
+.follow1 a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+}
+.maps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 120px;
+}
+/* forms */
+.forms2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px solid gray;
+
+    width: 800px;
+    padding: 30px;
+    margin-bottom: 10px;
+    
+}
+.forms2 h1{
+    color: #3b81d1;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    padding: 9px;
+    border-radius: 9px;
+    margin-bottom: 20px;
+    width: 400px;
+    border: 1px solid #3b81d1;
+}
+.name input{
+    width: 200px;
+}
+.form1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+textarea{
+    width: 400px;
+    border: 1px solid #3b81d1;
+    margin-bottom: 10px;
+}
+.submit{
+    width: 400px;
+    background-color: #3b81d1;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    margin-top: 30px;
+    height: 45px;
+}
+.submit:hover{
+    border: 1px solid #3b81d1;
+    color: #3b81d1;
+    background-color: white;
+}
+
+
+/* footer info */
+.footer-distributed{
+	background: #666;
+  background:black;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 26px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* services */
+.services2 {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #fff;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  border: 1px solid white;
+  padding: 9px;
+  position: relative;
+  z-index: 10;
+}
+.services2:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}

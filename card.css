@@ -1,0 +1,324 @@
+h2{
+    color: black ;
+    /* background-color: green; */
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(33, 32, 32);
+    padding-top: 30px;
+}
+.main{
+    padding-top: 91px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+.main p{
+    color: black;
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main ol{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.news{
+    padding-top:50px;
+    padding-bottom: 90px;
+}
+.image{
+    width: 600px;
+    border-radius: 9px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 8px  black;
+
+}
+.footer-distributed{
+    background: #666;
+    /* background: #35477d; */
+    background: #304770;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  /* Footer left */
+  
+  .footer-distributed .footer-left{
+    width: 40%;
+  }
+  
+  /* The company logo */
+  
+  .footer-distributed h3{
+    color:  #ffffff;
+    font: normal 26px 'Open Sans', cursive;
+    margin: 0;
+  }
+  
+  .footer-distributed h3 span{
+    color:  lightseagreen;
+  }
+  
+  /* Footer links */
+  
+  .footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+  }
+  
+  .footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    font-weight:400;
+    text-decoration: none;
+    color:  inherit;
+  }
+  
+  .footer-distributed .footer-company-name{
+    color:  #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  /* Footer Center */
+  
+  .footer-distributed .footer-center{
+    width: 35%;
+  }
+  
+  .footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+  
+  .footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+  }
+  
+  .footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    font-weight:400;
+    vertical-align: middle;
+    margin:0;
+  }
+  
+  .footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+  }
+  
+  .footer-distributed .footer-center p a{
+    color:  lightseagreen;
+    text-decoration: none;;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight:300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  /* Footer Right */
+  
+  .footer-distributed .footer-right{
+    width: 20%;
+  }
+  
+  .footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer-distributed .footer-icons{
+    margin-top: 25px;
+  }
+  
+  .footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+  
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+  
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  
+  /* services */
+  .services2 {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #fff;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    border: 1px solid white;
+    padding: 9px;
+    position: relative;
+    z-index: 10;
+  }
+  .services2:hover {
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+  }
+  .site-navbar{
+    background-color: white;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    }
+  
+  /* If you don't want the footer to be responsive, remove these media queries */
+  
+  @media (max-width: 880px) {
+  
+    .footer-distributed{
+      font: bold 14px sans-serif;
+    }
+  
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  
+    .footer-distributed .footer-center i{
+      margin-left: 0;
+    }
+  
+  }
+  @media (max-width: 600px) {
+    .main{
+       padding-left: 25px;
+       padding-right: 25px;
+    }
+    .news{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .image{
+        max-width: 300px;
+    }
+   
+  }
+  .coverphoto img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    padding-top: 150px;
+  }
+  .color2{
+    background-color: rgb(102, 137, 193);
+    width:100%;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    opacity: calc(0.3);
+
+  }
+  .images23{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    position: relative;
+    top: -390px;
+    z-index: 80;
+
+  }
+  .images23 img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border: 9px solid white;
+    border-radius: 0px 99px 0px 99px;
+    box-shadow: 2px 2px 8px rgb(90, 87, 87);
+  }
+  .images23 h1{
+    padding-top: 80px;
+    font-family:'Poppins", Arial, sans-serif';
+    font-size: 3.9rem;
+    font-weight: bolder;
+    color:#171c32 ;
+    z-index: 10;
+    text-align: center;
+    /* text-shadow: 2px 2px 8px white; */
+    
+    
+
+  }
+  .inforegardingimg{
+    align-items: baseline
+  }
+  @media(max-width:1000)
+{
+  .images23 img {
+    width: 241px!important;
+    height: 241px!important;
+  }
+  .images23{
+    padding-left: 50px;
+
+  }
+ 
+}
+@media (max-width: 600px) {
+  .image{
+    width: 200px;
+  }
+}

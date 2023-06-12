@@ -1,0 +1,22 @@
+.sticky-wrapper{
+    background-color: white;
+    box-shadow:0 2px 2px -2px rgba(0,0,0,.2); 
+}
+.news{
+    max-width: 1348px;
+    margin: auto;
+    padding-top: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+iframe{
+    margin: 9px;
+}
+@media (min-width: 1200px)
+{
+.container {
+    max-width: 1323px;
+}
+}

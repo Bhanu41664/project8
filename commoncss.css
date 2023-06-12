@@ -1,0 +1,82 @@
+@media screen and (max-width: 1400px){
+.site-navbar .site-logo a {
+    font-size: 14px;
+}
+}
+@media screen and (max-width: 900px){
+    .emailidofcontact{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width: 700px){
+    .emailidofcontact{
+        display: flex;
+        /* flex-direction: clumn; */
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width: 600px){
+    .emailidofcontact{
+        display: flex;
+        /* flex-direction: clumn; */
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .maps{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .emailidofcontact{
+        display: flex;
+        /* flex-direction: column; */
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 350px){
+    .site-navbar .site-logo a {
+        font-size: 11px;
+    }
+    .emailfooter{
+        display: none;
+    }
+    .info1 li {
+        --width: 10em;
+        font-size: 30px;
+    }
+    .emailidofcontact{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+    .contactcontainer{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .maps{
+        width: 300px;
+    }
+    }
+    @media screen and (max-width: 300px){
+        .text1 {
+            width: 230px;
+        }
+        .news iframe {
+            width: 245px;
+    
+          }
+          .maps{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 250px;
+        }
+    }
+
